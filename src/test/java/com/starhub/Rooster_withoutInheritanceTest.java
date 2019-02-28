@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+
 public class Rooster_withoutInheritanceTest {
 	 private Rooster_withoutInheritance rooster_withoutInheritance;
 

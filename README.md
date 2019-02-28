@@ -35,4 +35,4 @@ Can you implement the sing() method for the bird?
 	Assume that the	Rooster is a specific type of Chicken.
 	
 	created Rooster_withoutInheritance class with extrac methoed of  all properties generate sound ,walk..etc
-	
+
