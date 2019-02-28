@@ -63,3 +63,9 @@ Implemented Shark and Clownfish class as a sub-class of Fish.
 Sharks has two properites color and size (large and grey) with getter and setter and method eat , this method is defined clowfish only becoz its specific to shark
 clowfish has two properites color and size (small and organg) with getter and setter and method makeJokes , this method is defined clowfish only becoz its specific to clowfish
 Implemented unit tests.
+
+8. Dolphins are not exactly fish, yet, they are good swimmers
+
+	a. Can you model a dolphin that swims without inheriting from a fish class?
+	b. How do you avoid duplicating code or introducing unneeded overhead
+	Implemented Dolphin class by  implementing SwimmingAnimal Interface instead of extending from Fish. and implementing the swim method
