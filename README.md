@@ -45,3 +45,21 @@ Can you implement the sing() method for the bird?
 	
 	Created a Parrot with private constructors and  which accepts any class that implements GenerateSound interface.
 
+5. In addition to the birds, can you model a fish?
+
+	a. Fishes don’t sing
+	b. Fishes don’t walk
+	c. Fishes can swim
+	Created a new interface for Swimming Animals. with common method swim()
+	create Fish class with swim() no methods for walk and sing.
+	Created a Fish class with unit tests.
+6. Can you specialize the fish as a Shark and as a Clownfish?
+
+	a.Sharks are large and grey
+	b. Clownfish are small and colourful (orange)
+	c. Clownfish make jokes
+	d. Sharks eat other fish
+Implemented Shark and Clownfish class as a sub-class of Fish.
+Sharks has two properites color and size (large and grey) with getter and setter and method eat , this method is defined clowfish only becoz its specific to shark
+clowfish has two properites color and size (small and organg) with getter and setter and method makeJokes , this method is defined clowfish only becoz its specific to clowfish
+Implemented unit tests.
