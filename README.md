@@ -35,4 +35,13 @@ Can you implement the sing() method for the bird?
 	Assume that the	Rooster is a specific type of Chicken.
 	
 	created Rooster_withoutInheritance class with extrac methoed of  all properties generate sound ,walk..etc
+	
+4. Can you model a parrot? We are specifically interested in three parrots, one that lived in a house with dogs one in a house with cats, the other lived on a farm next to the rooster.
+
+	a.A parrot living with dogs says: “Woof, woof”
+	b. A parrot living with cats says: “Meow”
+	c. A parrot living near the rooster says: “Cock-a-doodle-doo”
+	d. How do you keep the parrot maintainable? What if we need another parrot lives near a Duck? Or near a phone that rings frequently?
+	
+	Created a Parrot with private constructors and  which accepts any class that implements GenerateSound interface.
 

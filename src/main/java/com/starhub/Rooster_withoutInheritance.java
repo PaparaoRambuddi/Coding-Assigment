@@ -9,6 +9,7 @@ public class Rooster_withoutInheritance implements Animal {
 	  public String generatedSound(Language language) {
 	        return DemonstratingSound.translate("Cock-a-doodle-doo", language);
 	  }
+
 	  
 	  public String soundGenerate() {
 	        return "Cock-a-doodle-doo";
