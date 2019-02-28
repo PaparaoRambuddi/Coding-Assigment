@@ -97,3 +97,8 @@ Implemented in Solution class.
 
 refer the CountAnimals class which is implemented  to count fly ,walk,sing,swim animals
 
+12 .Can you add a second language (if you know a language other than English) Use the rooster as a PoC for demonstrating this. For example, this is how the Rooster sounds differently depending on language. Please add the rooster sound in your native tongue.
+
+Implemented a simple SoundTranslator class that can translate a Rooster Sound based on the launguage.
+
+
