@@ -1,0 +1,26 @@
+package com.starhub;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class ParrotTest {
+
+    @Test
+    public void testParrotLivingWithDogs() {
+        Parrot parrotThatLivesWithDogs = new Parrot(new Dog());
+        assertEquals("Woof, woof", parrotThatLivesWithDogs.soundGenerate());
+    }
+
+    @Test
+    public void testParrotLivingWithCats() {
+        Parrot parrotThatLivesWithCats = new Parrot(new Cat());
+        assertEquals("Meow", parrotThatLivesWithCats.soundGenerate());
+    }
+
+    @Test
+    public void testParrotLivingWithRooster() {
+        Parrot parrotThatLivesWithRooster = new Parrot(new Rooster());
+        assertEquals("Cock-a-doodle-doo", parrotThatLivesWithRooster.soundGenerate());
+    }
+}

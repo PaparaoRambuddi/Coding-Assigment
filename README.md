@@ -70,3 +70,18 @@ Implemented unit tests.
 	a. Can you model a dolphin that swims without inheriting from a fish class?
 	b. How do you avoid duplicating code or introducing unneeded overhead
 	Implemented Dolphin class by  implementing SwimmingAnimal Interface instead of extending from Fish. and implementing the swim method
+	
+
+9. Can you model a butterfly?
+
+	a. A butterfly can fly
+	b. A butterfly does not make a sound
+Implemented Butterfly class by  implementing FlyingAnimal Interface nd implementing the fly method
+with simple unit tests.
+
+10. Can you optimize your model to account for the metamorphosis from caterpillar to butterfly?
+
+	a. A caterpillar cannot fly
+	b. A caterpillar can walk (crawl)
+	Implemented a Caterpillar Class by implementing Walkinganimal with simple unit tests.
+	Implemented metamorphize method which returns a Butterfly. and no method for fly()
