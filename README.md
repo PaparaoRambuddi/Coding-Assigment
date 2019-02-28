@@ -85,3 +85,15 @@ with simple unit tests.
 	b. A caterpillar can walk (crawl)
 	Implemented a Caterpillar Class by implementing Walkinganimal with simple unit tests.
 	Implemented metamorphize method which returns a Butterfly. and no method for fly()
+	
+
+11. Can you share the code to count:
+
+how many of these animals can fly?
+how many of these animals can walk?
+how many of these animals can sing?
+how many of these animals can swim?
+Implemented in Solution class.
+
+refer the CountAnimals class which is implemented  to count fly ,walk,sing,swim animals
+
